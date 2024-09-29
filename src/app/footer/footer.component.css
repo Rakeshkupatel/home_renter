@@ -1,0 +1,12 @@
+.footer-data {
+    display: flex;
+    justify-content: center; /* Centers content horizontally */
+    align-items: center;     /* Centers content vertically */
+    height: 2rem;
+    margin: 0;               /* Removes any extra margin */
+    background-color: aquamarine;
+    position: fixed;         /* Fixes the footer at the bottom */
+    bottom: 0;               /* Positions the footer at the bottom of the page */
+    left: 0;                 /* Ensures the footer spans the full width of the page */
+    width: 100%;             /* Makes the footer span the full width */
+}
