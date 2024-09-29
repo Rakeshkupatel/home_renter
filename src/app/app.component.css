@@ -1,0 +1,26 @@
+:host {
+  --content-padding: 10px;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* This will position the two headers at opposite ends */
+}
+
+.brand-name, .brand-name-login {
+  display: flex;
+  align-items: center;
+  height: 60px;
+  padding: var(--content-padding);
+}
+
+.brand-name, .brand-name-login {
+  box-shadow: 0px 5px 25px var(--shadow-color);
+}
+
+.brand-logo-login{
+  height: 50px;
+  width: 50px;
+}
+
